@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+package shared.unique1.unique1;
+
+message Message {}

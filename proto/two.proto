@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "one.proto";
+
+package shared.unique2.unique2;
+
+service Example {
+  rpc GetMessage (google.protobuf.Empty) returns (shared.unique1.unique1.Message);
+}
